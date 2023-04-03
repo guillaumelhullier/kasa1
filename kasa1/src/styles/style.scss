@@ -1,3 +1,8 @@
+@import"./header";
+@import"./error";
+@import"./footer";
+
+
 body {
     margin: 0;
 }
@@ -9,4 +14,14 @@ body {
 
 a {
     text-decoration: none;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 1300px) {
+
+    .header-container,
+    .banner,
+    .main-container {
+        padding: 0 20px;
+    }
 }
