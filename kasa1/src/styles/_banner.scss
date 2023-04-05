@@ -1,0 +1,36 @@
+.banner {
+    margin: 60px auto 40px auto;
+    max-width: 1240px;
+    position: relative;
+}
+
+.banner img {
+    filter: brightness(0.7);
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.banner span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .banner img {
+        height: 111px;
+    }
+
+    .banner span {
+        font-size: 24px;
+        width: 217px;
+        text-align: left;
+    }
+}
