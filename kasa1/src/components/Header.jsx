@@ -6,18 +6,16 @@ const Header = (props) => {
   return (
     <div className="header-container">
       <div className="header-img">
-        {/*Incrustation du logo*/}
         <Link to="/">
           <img className="img-logo" src={logo} alt="logo KASA" />
         </Link>
       </div>
       <nav>
         <ul className="header-nav">
-          {/*Lien Accueil et Apropos*/}
           <Link to="/" className="li li-border">
             <h2
               style={
-                props.showborder ? { borderBottom: "2px solid #FF6060" } : null
+                props.showBorder ? { borderBottom: "2px solid #FF6060" } : null
               }
             >
               Accueil
