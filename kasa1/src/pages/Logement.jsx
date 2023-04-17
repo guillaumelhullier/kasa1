@@ -5,7 +5,7 @@ import { useParams, Navigate } from "react-router-dom";
 import filledStars from "../assets/rating.svg";
 import emptyStars from "../assets/rating-empty.svg";
 import Collapse from "../components/Collapse";
-//import Gallery from "../components/Gallery";
+import Gallery from "../components/Gallery";
 
 const Logement = () => {
   let params = useParams();
@@ -35,7 +35,7 @@ const Logement = () => {
       <div className="logement-container">
         {logement && (
           <div className="slidesShow-image-container">
-            {/*<Gallery logement={logement} />*/}
+            <Gallery logement={logement} />
             <div className="container">
               <div>
                 <h2 className="logement-title">{logement.title}</h2>
