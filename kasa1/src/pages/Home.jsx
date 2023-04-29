@@ -7,9 +7,13 @@ import MainIndex from "../components/MainIndex";
 const Home = () => {
   return (
     <div>
+      {/*Réception du composant Header */}
       <Header showBorder={true} />
+      {/*Réception du composant Banner */}
       <Banner />
+      {/*Réception du composant MainIndex */}
       <MainIndex />
+      {/*Réception du composant Footer */}
       <Footer marginTop={50} />
     </div>
   );

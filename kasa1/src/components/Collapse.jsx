@@ -2,7 +2,9 @@ import React from "react";
 import { useState } from "react";
 import vector from "../assets/vector.png";
 
+//Props reçoit les données de la page à propos
 const Collapse = ({ question }) => {
+  //Définition du hook state local initialisé par le booleen false
   const [isActive, setIsActive] = useState(false);
 
   return (

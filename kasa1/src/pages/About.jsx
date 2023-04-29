@@ -34,8 +34,8 @@ const questions = [
 const About = () => {
   return (
     <div>
+      {/*Appel du composant Header */}
       <Header showBorder2={true} />
-
       <div className="banniere-about-container">
         <img
           className="banniere-about"
@@ -44,10 +44,12 @@ const About = () => {
         />
       </div>
       <div className="collapse-about-margin">
+        {/*Appel du composant collapse */}
         {questions.map((question) => (
           <Collapse key={question.id} question={question} />
         ))}
       </div>
+      {/*Appel du composant Footer */}
       <Footer marginTop={282} />
     </div>
   );

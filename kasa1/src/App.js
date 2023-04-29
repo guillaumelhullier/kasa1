@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Logement from "./pages/Logement";
 
+//Routes
+
 const App = () => {
   return (
     <div>
